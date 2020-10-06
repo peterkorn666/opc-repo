@@ -1,0 +1,7 @@
+Time : 13:59:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_titulo' in 'where clause'
+Raw SQL : UPDATE tematicas SET titulo=:titulo WHERE ID_titulo=:key
+
+Time : 13:58:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID_titulo' in 'where clause'
+Raw SQL : UPDATE tematicas SET titulo=:titulo WHERE ID_titulo=:key

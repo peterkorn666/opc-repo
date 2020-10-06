@@ -1,0 +1,3 @@
+Time : 21:01:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY apellido' at line 1
+Raw SQL : SELECT * FROM conferencistas WHERE  ORDER BY apellido

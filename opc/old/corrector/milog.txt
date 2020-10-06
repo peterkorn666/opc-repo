@@ -1,0 +1,408 @@
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('ESTO ES UNA PRUEBA<br />','', 'Seleccione', '8e5p3jm9i57gmnjj0fm2n3cvg5',  'resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu ', '', '', '', '9434g', '', 
+	
+				'mattiasgega@gmail.com',
+				'Mattias',
+				'Gonzalez',
+				'1232456',
+				'Gega',
+				'Uruguay',
+				'Mvdeo',				
+				'21/07/2008 - 190.134.13.57'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '1';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('1', '1', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+UPDATE trabajos_libres SET
+				
+				titulo_tl = 'ESTO ES UNA PRUEBA<br />', 
+				
+				area_tl = '',
+				tipo_tl = 'Oral',
+				resumen = 'resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu ',
+				archivo_trabajo_comleto = '',
+				archivo_tl = '',
+				palabrasClave = '',
+				nombreContacto = 'Mattias',
+				apellidoContacto = 'Gonzalez',
+				telefono = '1232456',
+				institucionContacto = 'Gega',
+				paisContacto = 'Uruguay',
+				ciudadContacto = 'Mvdeo',
+				idioma = '',
+				mailContacto_tl = 'mattiasgega@gmail.com', 				
+				session = '21071158498e5p3jm9i57gmnjj0fm2n3cvg5', 				
+				ultima_actualizacion = '21/07/2008 - 190.134.13.57' 
+				
+				WHERE ID='1';
+SELECT * FROM trabajos_libres_participantes WHERE ID_trabajos_libres='1';
+1
+UPDATE trabajos_libres_participantes SET lee='1' WHERE ID_participante='1' AND ID_trabajos_libres='1';
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+UPDATE trabajos_libres SET
+				
+				titulo_tl = 'ESTO ES UNA PRUEBA<br />', 
+				
+				area_tl = '',
+				tipo_tl = 'Oral',
+				resumen = 'resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu resumen adjs adjs&ntilde;aohsdpahsdluabsibg ib i i ipu hp uihasfpuhpfuiapuighapbyupiby yipb pi upiugh pui piu piiu ',
+				archivo_trabajo_comleto = '',
+				archivo_tl = '',
+				palabrasClave = '',
+				nombreContacto = 'Mattias',
+				apellidoContacto = 'Gonzalez',
+				telefono = '1232456',
+				institucionContacto = 'Gega',
+				paisContacto = 'Uruguay',
+				ciudadContacto = 'Mvdeo',
+				idioma = 'Español',
+				mailContacto_tl = 'mattiasgega@gmail.com', 				
+				session = '21071220408e5p3jm9i57gmnjj0fm2n3cvg5', 				
+				ultima_actualizacion = '21/07/2008 - 190.134.13.57' 
+				
+				WHERE ID='1';
+SELECT * FROM trabajos_libres_participantes WHERE ID_trabajos_libres='1';
+1
+UPDATE trabajos_libres_participantes SET lee='1' WHERE ID_participante='1' AND ID_trabajos_libres='1';
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('ESTO ES UNA PRUEBA<br />','', 'Oral', '30belsbvmj48cll28qgmkh6us6',  'ESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBAESTO ES UNA PRUEBA', '', '', '', '8k857', 'Español', 
+	
+				'graciela@congresoselis.com.uy',
+				'PRUEBA',
+				'PRUEBA',
+				'PRUEBA',
+				'PRUEBA',
+				'Alemania',
+				'PRUEBA',				
+				'22/07/2008 - 190.134.23.157'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '3';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('3', '2', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('Construcción de barcazas en un astillero de reparaciones: la historia de un desafío','', 'Oral', 'psil0rlh9nona9gno8niflrko6',  '<em>Para poder construir dos barcazas de 3650 ton de carga general, Tsakos Industrias Navales S.A. debió idear y emplear procedimientos poco convencionales que le permitieron realizar dicha construcción en sus instalaciones, minimizando las modificaciones en las mismas y las interferencias con su actividad principal, las reparaciones navales. Este trabajo muestra cómo se implementaron estos procedimientos, las dificultades que se presentaron y cómo se resolvieron. Así mismo, mostramos brevemente como luego de estas construcciones Tsakos Industrias Navales S.A. ha definido el proyecto de implantación de un astillero dise&ntilde;ado específicamente para la construcción de barcazas a gran escala.</em>', '', '', '', '1qd13', 'Español', 
+	
+				'petcheverria@tsakosmonte.com.uy',
+				'Pablo',
+				'Etcheverría',
+				'+598 2 924 42 84',
+				'Tsakos Industrias Navales S.A.',
+				'Uruguay',
+				'Montevideo',				
+				'24/07/2008 - 200.40.100.118'
+				);
+UPDATE trabajos_libres SET numero_tl= '002' WHERE ID = '4';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('4', '3', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('titulo prueba<br />','Derechos Humanos y legislación', 'Poster', '97dcadff508d5bc778e69952904873e2',  'resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba ', '', '', '', 'k7457', 'Portugués', 
+	
+				'javigega@gmail.com',
+				'nombre',
+				'apellido',
+				'telefono',
+				'institucion',
+				'Uruguay',
+				'ciudad',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '1';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('1', '1', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('titulo prueba<br />','Monitoreo y evaluación de compromisos en Centro América', 'Oral', '97dcadff508d5bc778e69952904873e2',  'resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba resumen prueba ', '', '', 'resumen prueba, resumenresumen prueba, resumen prueba, resumen prueba, resumen prueba', '7ibb9', 'Portugués', 
+	
+				'mattiasgega@gmail.com',
+				'nombre',
+				'apellido',
+				'telefono',
+				'institucion',
+				'Uruguay',
+				'ciudad',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '002' WHERE ID = '2';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('2', '2', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('guv','Prevención y promoción', 'Poster', '97dcadff508d5bc778e69952904873e2',  'asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfvvv', '', '', 'fasdf, asd,  asdfasd , fasdf as, df a', '5q68d', 'Español', 
+	
+				'mattiasgega@gmail.com',
+				'tv',
+				'dg',
+				'gv',
+				'gyuv',
+				'Guatemala',
+				'vu',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '003' WHERE ID = '3';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('3', '3', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('vivghyui&ntilde;kvy','Prevención y promoción', 'Poster', '97dcadff508d5bc778e69952904873e2',  'sdfgsdfgsdf', '', '', 'gsdfg, sdfgs, ', 'j98fn', 'Español', 
+	
+				'mattiasgega@gmail.com',
+				'uiogb',
+				'uig',
+				'vyi',
+				'iv',
+				'India',
+				'i',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '004' WHERE ID = '4';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('4', '4', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('vhkljbjklbnljkb','Prevención y promoción', 'Oral', '97dcadff508d5bc778e69952904873e2',  'sdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdf', '', '', 'dsfcasdf, asdf, asdf, asdfas, dfasdf', '79r8l', 'Español', 
+	
+				'mattiasgega@gmail.com',
+				'ui',
+				'hyuv',
+				'jk',
+				'viu',
+				'Venezuela',
+				'kjvh',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '005' WHERE ID = '5';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('5', '5', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('vhkljbjklbnljkb','Prevención y promoción', 'Oral', '97dcadff508d5bc778e69952904873e2',  'sdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdfsdfgdfsgsdf gsdfg dsfg sdf', '', '', 'dsfcasdf, asdf, asdf, asdfas, dfasdf', 'pk324', 'Español', 
+	
+				'mattiasgega@gmail.com',
+				'ui',
+				'hyuv',
+				'jk',
+				'viu',
+				'Venezuela',
+				'kjvh',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '006' WHERE ID = '6';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('6', '6', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('asdfasdfasdf','Aspectos psicosociales', 'Oral', '97dcadff508d5bc778e69952904873e2',  'asdfasdf asdfasd fasd fasd f<br />', '', '', 'asdf, asdf asd, f as, dfa, dfasdf', '38ef7', 'Portugués', 
+	
+				'mattiasgega@gmail.com',
+				'dfasdf',
+				'fdasfas',
+				'fasdf',
+				'asdfa',
+				'Austria',
+				'asdfasd',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '007' WHERE ID = '7';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('7', '7', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('wertwert wert wertwer rty eryer<br />','Aspectos psicosociales', 'Poster', '97dcadff508d5bc778e69952904873e2',  '                        					  Objetivos:ertwertwer<br />twtwert<br /> 							Metodo:eryertye rtyer tyert yerty e<br> 							Resultados: <br> 							Discusión:<br />						                           ', '', '', 'gfsd, fgsd, sdfg, sdfg, gfsdfg', 'qmicq', 'Portugués', 
+	
+				'mattiasgega@gmail.com',
+				'ku',
+				'yfvvy',
+				'lhv',
+				'vkg',
+				'Canadá',
+				'bv',				
+				'29/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '008' WHERE ID = '8';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('8', '8', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+UPDATE trabajos_libres SET
+				
+				titulo_tl = 'wertwert wert wertwer rty eryer<br />', 
+				
+				area_tl = 'Aspectos psicosociales',
+				tipo_tl = 'Poster',
+				resumen = '                        					                          					  Objetivos:ertwertwer<br />twtwert<br /> 							Metodo:eryertye rtyer tyert yerty e<br /> 							Resultados: fgsdfg<br /> 							Discusión:sgfsdfgsd<br />						                           						                           ',
+				archivo_trabajo_comleto = '',
+				archivo_tl = '',
+				palabrasClave = 'gfsd, fgsd, sdfg, sdfg, gfsdfg',
+				nombreContacto = 'ku',
+				apellidoContacto = 'yfvvy',
+				telefono = 'lhv',
+				institucionContacto = 'vkg',
+				paisContacto = 'Canadá',
+				ciudadContacto = 'bv',
+				idioma = 'Portugués',
+				mailContacto_tl = 'mattiasgega@gmail.com', 				
+				session = '290412201997dcadff508d5bc778e69952904873e2', 				
+				ultima_actualizacion = '29/04/2009 - 127.0.0.1' 
+				
+				WHERE ID='8';
+SELECT * FROM trabajos_libres_participantes WHERE ID_trabajos_libres='8';
+1
+UPDATE trabajos_libres_participantes SET lee='1' WHERE ID_participante='8' AND ID_trabajos_libres='8';
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave, idioma, 
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('titulo','3 - Aspectos psicosociales', 'Poster', '6dca205a11eca2347fe17f7c8dd0245f',  '                        					                          					  Objetivos:<br />sdifhkoasdjfnasdkn l&ntilde;asdfo asdhf asdhf ashdf asdf<br /> 							M&eacute;todo:<br />sdgf asdf asdf asdfsda hjt yj gs<br /> 							Resultados: <br />dsg&nbsp; fhjdfh dgh sdh dh<br /> 							Discusión:<br />sdfg dfhgfg dfg hdf hfd ghdf<br />						                           						                           ', '', '', 'sdg, sdfgsd, gsdf, gsdf, g', 'em35d', 'Español', 
+	
+				'javigega@gmail.com',
+				'nombre',
+				'apellido',
+				'telefono',
+				'institucion',
+				'Guatemala',
+				'ciudad',				
+				'30/04/2009 - 127.0.0.1'
+				);
+UPDATE trabajos_libres SET numero_tl= '009' WHERE ID = '9';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('9', '9', '1');
+ACA TERMINA////////

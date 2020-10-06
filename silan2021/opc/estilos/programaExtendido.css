@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+.extendido_container_dia_sala{
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+.extendido_dia_sala
+{
+	font-size:20px;
+	color:#294791;
+	font-weight:bold;
+	text-align:center;
+	text-transform: capitalize;
+}
+
+.extendido_dia
+{
+	background-color:#edf8ff;
+	padding:6px;
+	text-align:left;
+	display:block;
+}
+
+.extendido_sala{
+	display:block;
+	padding:0 6px;
+	text-align:left
+}
+
+.container_data{
+	/*border:2px solid #294791;*/
+	padding:10px;
+	margin-bottom:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.extendido_hora_actividad:first-child{
+	margin-top:0px;
+}
+.extendido_hora_actividad
+{
+	font-size:12px;
+	margin-top:10px;
+	padding:0px 10px;
+	margin-bottom:5px;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+}
+
+.extendido_hora_actividad span
+{
+	font-size:11px;
+	font-weight:bold;
+}
+
+.extendido_hora_actividad i
+{
+	margin-left:7px;
+}
+
+.extendido_titulo_actividad{
+	font-size:14px;
+	color:#294791;
+	font-weight:bold;
+	margin-left:113px;
+	margin-bottom:5px;
+}
+
+.titulo_conf{
+	font-size:13px;
+	font-weight:bold;
+	margin-left:144px;
+	margin-top:5px;
+}
+
+.calidad_conf{
+	font-size:11px;
+	float:left;
+	margin-left:151px;
+	width:80px;
+	clear:left;
+	margin-top:2px;
+}
+
+.conferencista{
+	float:left;
+	clear:right;
+	width:598px;
+	font-size:13px;
+}
+
+.conferencista i{
+	font-size:11px;
+}
+
+.trabajo .titulo{
+	font-size:13px;
+	float:left;
+	width:678px;
+}
+
+.trabajo .datos{
+	font-size:11px;
+	font-style:italic;
+	text-align:right
+}
+
+.trabajo .autores{
+	font-size:13px;
+	float: left;
+	margin-left:85px
+}
+.trabajo .autores span{
+	display: block;
+	margin:2px 0px;
+	font-size: 12px;
+}
+
+.trabajo .autores .autor_institucion{
+	font-size:11px;
+	margin-left:40px;
+}
+
+.trabajo .resumen-link{
+	float: right;
+}
+
+.trabajo .resumen {
+	display: none;
+	font-size:13px;
+	text-align: justify;
+	margin-left:86px;
+}
+.div_obs_conf{
+	display:none;
+	margin:5px 0 10px;
+}
+
+.div_cv_conf{
+	display:none;
+	margin:5px 0 10px;
+}

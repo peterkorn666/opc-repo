@@ -1,0 +1,278 @@
+Time : 19:17:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.nume' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:17:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.nume' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:16:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.nume' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:15:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:15:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas ' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='7'  where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:14:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas ' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='7'  where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:14:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas ' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, 
+		
+		FROM trabajos_libres t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='7'  where estado = 4 and archivo_tl<>''  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:08:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.id_crono' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:02:11
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 19:00:58
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4 and archivo_tl<>''  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 17:41:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 17:16:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'  and ( id_trabajo ='756')   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 14:42:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'  and ( id_trabajo ='95' or id_trabajo ='501' or id_trabajo ='517')   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:57:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 0  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:56:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:55:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:55:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 4  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:55:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'  and ( id_trabajo ='310' or id_trabajo ='420')   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:02:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'  and area_tl='1' and modalidad='5'  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:02:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado = 0  GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:02:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.start_date' in 'field list'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl,c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad
+		
+		FROM trabajos_libres t   where estado like '%%'  and ( id_trabajo ='420')   GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:51:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='7' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:51:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='7' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:50:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid and s.salaid='2' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:48:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid WHERE t.id_crono<>0 AND t.estado<>3 GROUP BY t.id_crono ORDER BY SUBSTRING(c.start_date,1,10), s.orden, SUBSTRING(c.start_date,12,16) ASC and s.salaid='2' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:47:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT t.id_trabajo, t.id_crono, c.start_date, c.end_date, c.id_crono as idcrono' at line 6
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  SELECT t.id_trabajo, t.id_crono, c.start_date, c.end_date, c.id_crono as idcrono, c.section_id, c.tipo_actividad FROM trabajos_libres as t JOIN cronograma as c ON t.id_crono=c.id_crono JOIN salas as s ON c.section_id=s.salaid WHERE t.id_crono<>0 AND t.estado<>3 GROUP BY t.id_crono ORDER BY SUBSTRING(c.start_date,1,10), s.orden, SUBSTRING(c.start_date,12,16) ASC and s.salaid='2' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:33:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.salaid' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  and s.salaid='7' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:32:53
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'salaid' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  and salaid='7' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:29:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'salaid' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  and salaid='2' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:23:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'salaid' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  and salaid='2' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 00:22:50
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'salaid' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail, t.idioma_tl
+		
+		FROM trabajos_libres t  where estado like '%%'  and salaid='7' GROUP BY t.id_trabajo order by t.numero_tl ASC

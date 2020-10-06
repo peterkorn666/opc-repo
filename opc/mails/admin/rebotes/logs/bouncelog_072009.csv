@@ -1,0 +1,51 @@
+Msg#,Current Time,Rule Number,Rule Category,Bounce Type,Status,Email,Subject
+1,2009-07-16 20:15:37,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+2,2009-07-16 20:15:37,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+3,2009-07-16 20:15:37,0000,unrecognized,none,not deleted,=?utf-8?Q?Centro_Cultural_de_Espa=C3=B1a?= <difusion@difusion.cce.org.uy>,=?utf-8?Q?CCE:_Viernes_5_de_Junio._Lanzamiento_del_Espacio_Federico_Garc?=  =?utf-8?Q?=C3=ADa_Lorca?=
+4,2009-07-16 20:15:37,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+5,2009-07-16 20:15:38,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+6,2009-07-16 20:15:38,0182,full,soft,not deleted,diapositivo@vtv.com.uy,failure notice
+7,2009-07-16 20:15:39,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+8,2009-07-16 20:15:39,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+9,2009-07-16 20:15:39,0236,unknown,hard,not deleted,viabrasil@adinet.com.uy,failure notice
+10,2009-07-16 20:15:39,0000,unrecognized,none,not deleted,postmaster@canal10.com.uy,=?iso-8859-1?Q?No_se_puede_entregar:_CCE:_Viernes_5_de_Junio_11:30_hs._La?= =?iso-8859-1?Q?nzamiento_del_Espacio_Federico_Garc=EDa_Lorca?=
+11,2009-07-16 20:15:39,0000,unrecognized,none,not deleted,postmaster@canal10.com.uy,=?iso-8859-1?Q?No_se_puede_entregar:_CCE:_Viernes_5_de_Junio_11:30_hs._La?= =?iso-8859-1?Q?nzamiento_del_Espacio_Federico_Garc=EDa_Lorca?=
+12,2009-07-16 20:15:40,0236,unknown,hard,not deleted,fernandadelgado@netgate.com.uy,failure notice
+13,2009-07-16 20:15:40,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+14,2009-07-16 20:15:40,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+15,2009-07-16 20:15:41,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+16,2009-07-16 20:15:41,0236,unknown,hard,not deleted,origri@adinet.com.uy,failure notice
+17,2009-07-16 20:15:41,0000,unrecognized,none,not deleted,postmaster@correo.montecarlotv.com.uy,Returned Mail: Message Could Not Be Delivered
+18,2009-07-16 20:15:41,0182,full,soft,not deleted,produccionmujer@vtv.com.uy,failure notice
+19,2009-07-16 20:15:41,0236,unknown,hard,not deleted,estilo10@adinet.com.uy,failure notice
+20,2009-07-16 20:15:42,0182,full,soft,not deleted,cviana@vtv.com.uy,failure notice
+21,2009-07-16 20:15:42,0000,unrecognized,none,not deleted,=?utf-8?Q?Centro_Cultural_de_Espa=C3=B1a?= <difusion@difusion.cce.org.uy>,JUEVES 4, 19:30 HS. Ciclo: Bordeando a Onetti.
+22,2009-07-16 20:15:42,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+23,2009-07-16 20:15:42,0236,unknown,hard,not deleted,jimenaabad@observa.com.uy,failure notice
+24,2009-07-16 20:15:43,0236,unknown,hard,not deleted,magdalena.dieste@observa.com.uy,failure notice
+25,2009-07-16 20:15:43,0182,full,soft,not deleted,santiagomigueles.intercanal.com.uy@hermes2.intercanal.com.uy,Undelivered Mail Returned to Sender
+26,2009-07-16 20:15:43,0236,unknown,hard,not deleted,mperez@observa.com.uy,failure notice
+27,2009-07-16 20:15:43,0000,unrecognized,none,not deleted,Mail Delivery System <postmaster@prensa.imm.gub.uy>,Notificacion de falla de entrega.
+28,2009-07-16 20:15:43,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+29,2009-07-16 20:15:43,0236,unknown,hard,not deleted,jimenaabad@observa.com.uy,failure notice
+30,2009-07-16 20:15:44,0236,unknown,hard,not deleted,magdalena.dieste@observa.com.uy,failure notice
+31,2009-07-16 20:15:44,0000,unrecognized,none,not deleted,Mail Delivery System <postmaster@prensa.imm.gub.uy>,Notificacion de falla de entrega.
+32,2009-07-16 20:15:44,0182,full,soft,not deleted,santiagomigueles.intercanal.com.uy@hermes2.intercanal.com.uy,Undelivered Mail Returned to Sender
+33,2009-07-16 20:15:44,0236,unknown,hard,not deleted,mperez@observa.com.uy,failure notice
+34,2009-07-16 20:15:44,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+35,2009-07-16 20:15:44,0000,unrecognized,none,not deleted,Mail Delivery System <MAILER-DAEMON@correio.ws>,Undelivered Mail Returned to Sender
+36,2009-07-16 20:15:44,0236,unknown,hard,not deleted,riviera@adinet.com.uy,failure notice
+37,2009-07-16 20:15:44,0236,unknown,hard,not deleted,crystal@adinet.com.uy,failure notice
+38,2009-07-16 20:15:45,0236,unknown,hard,not deleted,resocean@adinet.com.uy,failure notice
+39,2009-07-16 20:15:45,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+40,2009-07-16 20:15:45,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+41,2009-07-16 20:15:45,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+42,2009-07-16 20:15:46,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+43,2009-07-16 20:15:46,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+44,2009-07-16 20:15:46,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+45,2009-07-16 20:15:46,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+46,2009-07-16 20:15:47,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+47,2009-07-16 20:15:47,0236,unknown,hard,not deleted,mnaguiar@adinet.com.uy,failure notice
+48,2009-07-16 20:15:47,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+49,2009-07-16 20:15:47,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+50,2009-07-16 20:15:47,0236,unknown,hard,not deleted,aguirre@adinet.com.uy,failure notice

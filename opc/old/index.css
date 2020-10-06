@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#161414;
+	}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 10px 0px 10px 0px;
+	color: #161414;
+	}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	}
+
+#contendorGrande  {
+	width: 780px;
+	margin: 45px auto;
+	}
+
+#contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+	width: 175px;
+	height: 590px;
+	float: left;
+	padding: 10px;
+	}
+
+#contenedor1 {
+	background: #515C9C url(imagenes/negro.gif) no-repeat top;
+
+	}
+
+#contenedor2 {
+	background: #c79a3e url(imagenes/negro.gif) no-repeat top;
+	}
+
+#contenedor3 {
+	background: #965f85 url(imagenes/negro.gif) no-repeat top;
+	}
+
+#contenedor4 {
+	background: #307d48 url(imagenes/negro.gif) no-repeat top;
+	}	
+	
+.textos {
+	clear: both;
+	width: 155px;
+	height: 330px;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+	}
+
+.img img {
+	float: left;
+	width: 175px;
+	height: 190px;
+	border: none;
+	}
+.img a:link, .img a:visited, .img a:hover {
+	border: 0px;
+	}
+
+.bt_ingresar {
+	width: 155px;
+	padding: 10px;
+	height: 40px;
+	}
+
+.bt_ingresar a:link, .bt_ingresar a:visited {
+	background: url(imagenes/bt_ingresar.gif) no-repeat;
+	width: 137px;
+	height: 34px;
+	display:block;
+	}
+.bt_ingresar a:hover {	
+		background: url(imagenes/bth_ingresar.gif) no-repeat;
+}
+
+.bt_ingresar span {	
+	display: none;
+	}
+#imprimir {
+	width: 750px;
+	padding: 15px;
+	clear: both;
+	background: #343433 url(imagenes/f_imprimir.gif) repeat-x bottom;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #fff;
+	height: 50px;
+	}
+#imprimir img {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	}
+
+#imprimir p {
+	float: right;
+	width: 675px;
+	}
+	
+/*****************************
+light_box
+*******************************/
+
+#lightbox{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(imagenes/lightbox/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(imagenes/lightbox/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(imagenes/lightbox/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%	
+	}
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	}
+	

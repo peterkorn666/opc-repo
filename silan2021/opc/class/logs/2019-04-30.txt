@@ -1,0 +1,3 @@
+Time : 14:35:25
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bd_pediatria2019.config' doesn't exist
+Raw SQL : SELECT * FROM config WHERE id=1

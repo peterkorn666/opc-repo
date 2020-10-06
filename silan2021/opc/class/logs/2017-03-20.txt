@@ -1,0 +1,7 @@
+Time : 18:37:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_conf' in 'from clause'
+Raw SQL : SELECT * FROM crono_conferencistas as cc JOIN cronograma as c USING(id_conf) WHERE cc.id_conf=:id_conf
+
+Time : 18:37:43
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_conf' in 'from clause'
+Raw SQL : SELECT * FROM crono_conferencistas as cc JOIN cronograma as c USING(id_conf) WHERE id_conf=:id_conf

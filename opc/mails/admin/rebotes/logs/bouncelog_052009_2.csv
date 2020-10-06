@@ -1,0 +1,127 @@
+Msg#,Current Time,Rule Number,Rule Category,Bounce Type,Status,Email,Subject
+1,2009-05-01 00:13:12,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+2,2009-05-01 00:13:12,0000,unrecognized,none,not deleted,Postmaster@imm.gub.uy,DELIVERY FAILURE: Error transferring to MAILSRVR.IMM.GUB.UY; Maximum hop count exceeded.  Message probably in a routing loop.
+3,2009-05-01 00:13:13,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+4,2009-05-01 00:13:13,0236,unknown,hard,moved (hard),delamatriz@adinet.com.uy,failure notice
+5,2009-05-01 00:13:13,0236,unknown,hard,moved (hard),ceprodih@adinet.com.uy,failure notice
+6,2009-05-01 00:13:13,0236,unknown,hard,moved (hard),fundares@adinet.com.uy,failure notice
+7,2009-05-01 00:13:14,0236,unknown,hard,moved (hard),ieps@adinet.com.uy,failure notice
+8,2009-05-01 00:13:14,0166,full,soft,not deleted,fradeconpermiso@oriental.com.uy,Mail delivery failed: returning message to sender
+9,2009-05-01 00:13:14,0236,unknown,hard,moved (hard),aportes@adinet.com.uy,failure notice
+10,2009-05-01 00:13:15,0236,unknown,hard,moved (hard),regula@adinet.com.uy,failure notice
+11,2009-05-01 00:13:15,0000,unrecognized,none,not deleted,Mail Delivery System <postmaster@prensa.imm.gub.uy>,Notificacion de falla de entrega.
+12,2009-05-01 00:13:15,0236,unknown,hard,moved (hard),jimenaabad@observa.com.uy,failure notice
+13,2009-05-01 00:13:15,0013,unknown,hard,moved (hard),gzapiola@elpais.com.uy,Delivery Status Notification (Failure)
+14,2009-05-01 00:13:16,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+15,2009-05-01 00:13:16,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+16,2009-05-01 00:13:16,0236,unknown,hard,moved (hard),jabude@jetmar.com.uy,failure notice
+17,2009-05-01 00:13:17,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+18,2009-05-01 00:13:17,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+19,2009-05-01 00:13:18,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+20,2009-05-01 00:13:18,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+21,2009-05-01 00:13:19,0126,full,soft,not deleted,aaguerre@eulen.com.uy,Returned mail: see transcript for details
+22,2009-05-01 00:13:19,0236,unknown,hard,moved (hard),mnaguiar@adinet.com.uy,failure notice
+23,2009-05-01 00:13:20,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+24,2009-05-01 00:13:20,0236,unknown,hard,moved (hard),aguirre@adinet.com.uy,failure notice
+25,2009-05-01 00:13:20,0236,unknown,hard,moved (hard),lourdesaguirre@adinet.com.uy,failure notice
+26,2009-05-01 00:13:20,0236,unknown,hard,moved (hard),marejodar@adinet.com.uy,failure notice
+27,2009-05-01 00:13:20,0236,unknown,hard,moved (hard),cmdefotografia@doi.imm.gub.uy,Returned mail: see transcript for details
+28,2009-05-01 00:13:21,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+29,2009-05-01 00:13:21,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+30,2009-05-01 00:13:21,0236,unknown,hard,moved (hard),albonico@adinet.com.uy,failure notice
+31,2009-05-01 00:13:22,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+32,2009-05-01 00:13:22,0236,unknown,hard,moved (hard),jaac22@adinet.com.uy,failure notice
+33,2009-05-01 00:13:22,0236,unknown,hard,moved (hard),alsauriv@netgate.com.uy,failure notice
+34,2009-05-01 00:13:22,0236,unknown,hard,moved (hard),malmansa@pdt.gub.uy,failure notice
+35,2009-05-01 00:13:23,0236,unknown,hard,moved (hard),elizabethalmiron@adinet.com.uy,failure notice
+36,2009-05-01 00:13:23,0236,unknown,hard,moved (hard),neidalon@adinet.com.uy,failure notice
+37,2009-05-01 00:13:23,0236,unknown,hard,moved (hard),calegrias@investigaciones.cl,failure notice
+38,2009-05-01 00:13:23,0236,unknown,hard,moved (hard),falonso@adinet.com.uy,failure notice
+39,2009-05-01 00:13:23,0236,unknown,hard,moved (hard),cecap@adinet.com.uy,failure notice
+40,2009-05-01 00:13:23,0158,full,soft,not deleted,midras@adinet.com.uy,=?ISO-8859-15?Q?Notificaci=F3n_del_estado_de_entrega?=
+41,2009-05-01 00:13:24,0236,unknown,hard,moved (hard),solal@adinet.com.uy,failure notice
+42,2009-05-01 00:13:24,0000,unrecognized,none,not deleted,mailer-daemon@windows4.lqqd.com.uy,Mail Delivery Problems
+43,2009-05-01 00:13:24,0000,unrecognized,none,not deleted,postmaster@canal10.com.uy,No se puede entregar: CCE: Calendario de las actividades de Mayo 09
+44,2009-05-01 00:13:25,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+45,2009-05-01 00:13:25,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+46,2009-05-01 00:13:25,0236,unknown,hard,moved (hard),cess@adinet.com.uy,failure notice
+47,2009-05-01 00:13:25,0126,full,soft,not deleted,mirnalez@ccea.com.uy,Returned mail: see transcript for details
+48,2009-05-01 00:13:26,0236,unknown,hard,moved (hard),martaalvarez@adinet.com.uy,failure notice
+49,2009-05-01 00:13:26,0182,full,soft,not deleted,acozzi@montevideo.com.uy,failure notice
+50,2009-05-01 00:13:27,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+51,2009-05-01 00:13:27,0236,unknown,hard,moved (hard),amaliaamestoy@adinet.com.uy,failure notice
+52,2009-05-01 00:13:27,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+53,2009-05-01 00:13:27,0236,unknown,hard,moved (hard),rocioandrada@adinet.com.uy,failure notice
+54,2009-05-01 00:13:28,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+55,2009-05-01 00:13:28,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+56,2009-05-01 00:13:29,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+57,2009-05-01 00:13:29,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+58,2009-05-01 00:13:29,0236,unknown,hard,moved (hard),alciapa@netgate.com.uy,failure notice
+59,2009-05-01 00:13:29,0000,unrecognized,none,not deleted,postmaster@aardvark.montsoleil.com.uy,Permanent Delivery Failure
+60,2009-05-01 00:13:30,0236,unknown,hard,moved (hard),silviant@adinet.com.uy,failure notice
+61,2009-05-01 00:13:30,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+62,2009-05-01 00:13:31,0182,full,soft,not deleted,beaqui@montevideo.com.uy,failure notice
+63,2009-05-01 00:13:31,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+64,2009-05-01 00:13:32,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+65,2009-05-01 00:13:32,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+66,2009-05-01 00:13:32,0236,unknown,hard,moved (hard),darbilla@busqueda.com.uy,failure notice
+67,2009-05-01 00:13:33,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+68,2009-05-01 00:13:33,0236,unknown,hard,moved (hard),fardao@adinet.com.uy,failure notice
+69,2009-05-01 00:13:33,0236,unknown,hard,moved (hard),gabya@adinet.com.uy,failure notice
+70,2009-05-01 00:13:33,0236,unknown,hard,moved (hard),cgn@adinet.com.uy,failure notice
+71,2009-05-01 00:13:34,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+72,2009-05-01 00:13:34,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+73,2009-05-01 00:13:35,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+74,2009-05-01 00:13:35,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+75,2009-05-01 00:13:35,0236,unknown,hard,moved (hard),jaromar@adinet.com.uy,failure notice
+76,2009-05-01 00:13:35,0013,unknown,hard,moved (hard),jarevalo@casmu.com,Delivery Status Notification (Failure)
+77,2009-05-01 00:13:36,0000,unrecognized,none,not deleted,MAILER-DAEMON@hispavista.com,Undeliverable mail: CCE: Calendario de las actividades de Mayo 09
+78,2009-05-01 00:13:36,0158,full,soft,not deleted,global@adinet.com.uy,=?ISO-8859-15?Q?Notificaci=F3n_del_estado_de_entrega?=
+79,2009-05-01 00:13:36,0236,unknown,hard,moved (hard),maijer@adinet.com.uy,failure notice
+80,2009-05-01 00:13:36,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+81,2009-05-01 00:13:37,0236,unknown,hard,moved (hard),colacho@adinet.com.uy,failure notice
+82,2009-05-01 00:13:37,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+83,2009-05-01 00:13:37,0236,unknown,hard,moved (hard),micamicamica@netgate.com.uy,failure notice
+84,2009-05-01 00:13:37,0236,unknown,hard,moved (hard),anzoaz@adinet.com.uy,failure notice
+85,2009-05-01 00:13:38,0236,unknown,hard,moved (hard),janine1@adinet.com.uy,failure notice
+86,2009-05-01 00:13:38,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+87,2009-05-01 00:13:38,0236,unknown,hard,moved (hard),mbalino@nbcnet.com.uy,failure notice
+88,2009-05-01 00:13:39,0236,unknown,hard,moved (hard),terepa@adinet.com.uy,failure notice
+89,2009-05-01 00:13:39,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+90,2009-05-01 00:13:40,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+91,2009-05-01 00:13:40,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+92,2009-05-01 00:13:40,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+93,2009-05-01 00:13:41,0236,unknown,hard,moved (hard),aaristimuo@ucu.edu.uy,Undelivered Mail Returned to Sender
+94,2009-05-01 00:13:41,0236,unknown,hard,moved (hard),nbarolin@adinet.com.uy,failure notice
+95,2009-05-01 00:13:41,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+96,2009-05-01 00:13:42,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+97,2009-05-01 00:13:42,0236,unknown,hard,moved (hard),vchana@adinet.com.uy,failure notice
+98,2009-05-01 00:13:42,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+99,2009-05-01 00:13:42,0158,full,soft,not deleted,afbz@adinet.com.uy,=?ISO-8859-15?Q?Notificaci=F3n_del_estado_de_entrega?=
+100,2009-05-01 00:13:43,0236,unknown,hard,moved (hard),vbarrera@adinet.com.uy,failure notice
+101,2009-05-01 00:13:43,0236,unknown,hard,moved (hard),anamabarreto@netgate.com.uy,failure notice
+102,2009-05-01 00:13:43,0236,unknown,hard,moved (hard),srbarreto@adinet.com.uy,failure notice
+103,2009-05-01 00:13:43,0236,unknown,hard,moved (hard),martabasoa@adinet.com.uy,failure notice
+104,2009-05-01 00:13:43,0236,unknown,hard,moved (hard),gbastiada@adinet.com.uy,failure notice
+105,2009-05-01 00:13:49,0236,unknown,hard,moved (hard),mdnssec@adinet.com.uy,failure notice
+106,2009-05-01 00:13:49,0236,unknown,hard,moved (hard),kafel@adinet.com.uy,failure notice
+107,2009-05-01 00:13:49,0236,unknown,hard,moved (hard),ebello@mgap.gub.uy,failure notice
+108,2009-05-01 00:13:50,0236,unknown,hard,moved (hard),queijogp@adinet.com.uy,failure notice
+109,2009-05-01 00:13:50,0157,unknown,hard,moved (hard),mbeltran@fhuce.edu.uy,failure notice
+110,2009-05-01 00:13:50,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+111,2009-05-01 00:13:51,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+112,2009-05-01 00:13:51,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+113,2009-05-01 00:13:52,0236,unknown,hard,moved (hard),maricha28@adinet.com.uy,failure notice
+114,2009-05-01 00:13:52,0236,unknown,hard,moved (hard),impcult@adinet.com.uy,failure notice
+115,2009-05-01 00:13:52,0236,unknown,hard,moved (hard),meybylore@adinet.com.uy,failure notice
+116,2009-05-01 00:13:53,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+117,2009-05-01 00:13:53,0236,unknown,hard,moved (hard),franciscubern@adinet.com.uy,failure notice
+118,2009-05-01 00:13:54,0236,unknown,hard,moved (hard),gitanerias2003@adinet.com.uy,failure notice
+119,2009-05-01 00:13:54,0236,unknown,hard,moved (hard),crisbe@adinet.com.uy,failure notice
+120,2009-05-01 00:13:54,0236,unknown,hard,moved (hard),erkalf@adinet.com.uy,failure notice
+121,2009-05-01 00:13:55,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice
+122,2009-05-01 00:13:55,0013,unknown,hard,moved (hard),yiyi707@hotmail.com,Delivery Status Notification (Failure)
+123,2009-05-01 00:13:56,0236,unknown,hard,moved (hard),schurli@adinet.com.uy,failure notice
+124,2009-05-01 00:13:56,0236,unknown,hard,moved (hard),pausol@adinet.com.uy,failure notice
+125,2009-05-01 00:13:56,0013,unknown,hard,moved (hard),montevideowebmaster@state.gov,Delivery Status Notification (Failure)
+126,2009-05-01 00:13:57,0000,unrecognized,none,not deleted,MAILER-DAEMON@difusion.cce.org.uy,failure notice

@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.extendido_container_dia_sala{
+	/*margin-top:20px;
+	margin-bottom:5px;*/
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.extendido_dia_sala
+{
+	font-size:20px;
+	/*color:#294791;*/
+	font-weight:bold;
+	text-align:center;
+	text-transform: capitalize;
+}
+
+.extendido_dia
+{
+	background-color:#edf8ff;
+	padding:6px;
+	text-align:left;
+	display:block;
+}
+
+.extendido_sala{
+	display:block;
+	padding:0 6px;
+	text-align:left
+}
+
+.container_data{
+	/*border:2px solid #294791;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	margin-bottom:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.extendido_hora_actividad:first-child{
+	margin-top:0px;
+}
+.extendido_hora_actividad
+{
+	font-size: 14px;
+	margin-top: 5px;
+	/*padding:0px 10px;*/
+	padding: 0px;
+	margin-bottom: 5px;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+}
+
+.extendido_hora_actividad span
+{
+	font-size:11px;
+	font-weight:bold;
+}
+
+.extendido_hora_actividad i
+{
+	margin-left:7px;
+}
+
+.div_hora_actividad{
+	width: 70px;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+}
+
+.div_tipo_actividad{
+	font-style: italic;
+	margin-left: 5px;
+	float: left;
+}
+
+.extendido_titulo_actividad{
+	font-size:16px;
+	/*color:#294791;*/
+	font-weight:bold;
+	/*margin-left:113px;*/
+	/*margin-left:106px;*/
+	margin-left: 75px;
+	margin-bottom:5px;
+	margin-right: 100px;
+}
+
+.titulo_conf{
+	font-size:13px;
+	font-weight:bold;
+	/*margin-left:133px;*/
+	/*margin-left:106px;*/
+	margin-left: 206px;
+	margin-top: 5px;
+	padding-top: 8px;
+}
+
+.calidad_conf{
+	font-size:13px;
+	/*margin-left:131px;*/
+	float:left;
+	padding-left: 10px;
+	margin-left: 96px;
+	width: 92px;
+	clear:left;
+	margin-top: 2px;
+	margin-right: 15px;
+}
+
+.conferencista{
+	float:left;
+	clear:right;
+	/*width:631px;*/
+	width: 535px;
+	font-size:16px;
+}
+
+.conferencista i{
+	font-size:13px;
+}
+
+.trabajo .titulo{
+	font-size:13px;
+	float:left;
+	width:678px;
+}
+
+.trabajo .datos{
+	font-size:11px;
+	font-style:italic;
+	text-align:right
+}
+
+.trabajo .autores{
+	font-size:13px;
+	float: left;
+	margin-left:85px
+}
+.trabajo .autores span{
+	display: block;
+	margin:2px 0px;
+	font-size: 12px;
+}
+
+.trabajo .autores .autor_institucion{
+	font-size:11px;
+	margin-left:40px;
+}
+
+.trabajo .resumen-link{
+	float: right;
+}
+
+.trabajo .resumen {
+	display: none;
+	font-size:13px;
+	text-align: justify;
+	margin-left: 86px;
+}
+.div_obs_conf{
+	display:none;
+	margin:5px 0 10px;
+	text-align: justify;
+}
+
+.div_cv_conf{
+	display:none;
+	margin:5px 0 10px;
+	text-align: justify;
+}
+
+/* Trabajo programa */
+.trabajo_programa {
+	margin-right: 100px;
+}
+
+.trabajo_programa .titulo{
+	font-size:16px;
+	font-weight:bold;
+	margin-left:106px;
+	/*margin-left: 75px;*/
+	
+	/*float:left;
+	width:678px;*/
+}
+
+.trabajo_programa .conferencista{
+	font-size: 16px;
+	/*width: 631px;*/
+	width: 535px;
+}
+
+.trabajo_programa .autor_institucion{
+	font-size: 13px;
+	font-style:italic;
+}
+
+.trabajo_programa .datos{
+	font-size:11px;
+	font-style:italic;
+	text-align:right
+}
+
+.trabajo_programa .resumen-link{
+	float: right;
+	font-size: 10px;
+}
+
+.trabajo_programa .resumen {
+	display: none;
+	font-size:15px;
+	text-align: justify;
+	margin-left: 106px;
+}

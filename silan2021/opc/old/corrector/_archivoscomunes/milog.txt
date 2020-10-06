@@ -1,0 +1,81 @@
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave,
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('Plan de cuidados en pacientes en el Posoperatorio','', '', 'aac9dcad4b8305b2e291353eded57985',  'Introducción: La valoración de las necesidades según le modelo de enfermería de Virginia A. Henderson sirve de herramienta para analizar las alteraciones de los pacientes. Una vez valoradas se prioriza y se elabora un plan de cuidados para resolver los problemas identificados en la valoración.<br />Objetivo: Elaborar un plan de cuidados de enfermería basado en los problemas identificados en la valoración de pacientes de cirugía bariátrica en las 24 horas del PO. <br />M&eacute;todos y Materiales: Basado en el trabajo previo de Valoración de las necesidades(n) de 20 pacientes, en el PO de cirugía bariátrica durante su estadía en la UCI, en la que se identificaron las (n) alteradas (gráfico1 y 2), se elaboro el presente plan de cuidados. Se realizó además una revisión de la literatura y de los protocolos de la unidad para determinar las intervenciones. <br />Resultado:Grafico 1: se observan las necesidades alteradas que prevalecen en la 1&ordm;, 2&ordm;-31&ordm;, 4&ordm;-6&ordm; hora del PO en serie. Las mismas corresponden a la serie 1 (1&ordm; hora), serie 2 (2&ordm;-3&ordm; h.)y la serie 3 (4&ordm;-6&ordm;h.) Se destacan las de nutrición e hidratación y las de eliminación urinaria (100%) y las de movimiento, evitar los peligros y mantener t&ordm; corporal (entre 70 y 35%). En el gráfico 2 disminuyen las (n) que antes prevalecín y aumentan las de evitar los peligros, según el tiempo del PO. En la serie1 (7&ordm;-12&ordm;h.) y la serie2 (13&ordm;-24&ordm;h.) <br />Se lleva a cabo un Plan de cuidados según los siguientes problemas y complocaciones potenciales: 1) Necesidad de respirar: Insuficiencia respiratoria aguda, atelectasia, neumonía 2) Hemorragia,shock. hipovol&eacute;mico, cardiopatía isqu&eacute;mica, Insuficiencia cardiaca. 3) Nutrición e hidratación/ Anemia, Carencia nutricional, vómitos, fístula gastrointestinal, íleo paralítico, diarreas, dehiscencia de sutura, distensión del reservorio gástrico. 4) Movilidad/ trombosis: Tromboflebitis, TVP. 5) Riesgo de Infección: herida quirúrgica, sepsis. 6) Necesidad de seguridad: Dolor. 7) Necesidad de eliminación: IRA, infección urinaria, retención urinaria. 8) Necesidad de dormir y descansar. 9) Necesidad de aprender<br />', '', '', '', '374ji',
+	
+				'gegamultimedios@gmail.com',
+				'Gabriel',
+				'Matonte',
+				'4874950',
+				'ITS',
+				'Uruguay',
+				'Montevideo',				
+				'17/03/2008 - 190.64.2.137'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '2';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('2', '2', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave,
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('Comienzo de la Terapia Intensiva','', '', 'aac9dcad4b8305b2e291353eded57985',  'Introdución: Belize, considerado un pais del tercer mundo, relativamente joven con una poblacion aproximada de 300,000 habitantes localizado en la zona del Caribe en America Central.&nbsp; cuidados primarios y secundario estan disponibles, sin embargo en el caso de pacientes que necesiten atencion de tercer nivel, necesitan ser transportados a los paises vecinos.&nbsp; En Septiembre del 2002 la primer institucion con capacidad de ofrecer servicios de tercer nivel abre sus puiertas.<br />Objetivo: Establecer el uso y el Impacto del servicio de Terapia Intensiva.<br />M&eacute;todo y materiales: Estudio observacional de Septiembre del 2002-Septiembre del 2006. Usando APACHE II<br />Resultado: Durante el Curso del Estudio, admitimos un total de 560 pacientes en la Unidad General de Terapia Intensiva, de estos 392/560 (70%) de los casos eran de Belice. 168/560 (30%) de los casos eran extranjeros.&nbsp;la relacion hombre,&nbsp;mujer fue 1.75:1.&nbsp; Los diagnosticos mas comunes correlacionaron con las estadisticas reportadas&nbsp;alrededor del mundo; Trauma, procesos infecciosos en&nbsp;diferentes grados de severidad, Enfermedad Vascular Cerebral Vascular, Sindromes coronario Agudo entre otros. La tasa de mortalidad observada fue en un promedio de 5.3% y&nbsp;el tiempo promedio de estancia en la UCI fue de 5 days.&nbsp;', '', '', '', '6n545',
+	
+				'gegamultimedios@gmail.com',
+				'Carlos',
+				'Brune',
+				'2008856',
+				'Hospital Pereyra Rossell',
+				'Uruguay',
+				'Montevideo',				
+				'17/03/2008 - 190.64.2.137'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '0';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('0', '3', '1');
+ACA TERMINA////////
+ARRANCA/////////////
+Archivo FINAL: 
+Insert into trabajos_libres (titulo_tl, area_tl, tipo_tl,  session, resumen, archivo_trabajo_comleto, archivo_tl , palabrasClave ,clave,
+	
+			 mailContacto_tl,
+			 nombreContacto,
+			 apellidoContacto,
+			 telefono,
+			 institucionContacto,
+			 paisContacto,
+			 ciudadContacto,			 
+			 ultima_actualizacion) values ('a&nbsp;&nbsp;  a&nbsp;&nbsp;  a&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;','', '', 'bbfba26dbd7bb5c77de276c1bbcc81ac',  '					   					   Introducción:<br />aaaa<br /> 							Objetivos:<br />aa<br /> 							Dise&ntilde;o:<br />aaa<br /> 							Resultados: <br />aaaaaaaa<br /> 							Conclusiones:<br />						                          ', '', '', '', 'oml6d',
+	
+				'mattiasgega@gmail.com',
+				'a',
+				'a',
+				'a',
+				'a',
+				'Alemania',
+				'a',				
+				'17/03/2008 - 190.64.2.137'
+				);
+UPDATE trabajos_libres SET numero_tl= '001' WHERE ID = '0';
+1
+INSERT INTO trabajos_libres_participantes (ID_trabajos_libres , ID_participante , lee)
+					VALUES ('0', '4', '1');
+ACA TERMINA////////

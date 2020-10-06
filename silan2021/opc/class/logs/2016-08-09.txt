@@ -1,0 +1,32 @@
+Time : 21:43:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas, Institucion FROM personas_trabajos_libres WHERE
+
+Time : 21:42:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas, Institucion FROM personas_trabajos_libres WHERE
+
+Time : 21:42:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas, Institucion FROM personas_trabajos_libres WHERE
+
+Time : 21:42:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas, Institucion FROM personas_trabajos_libres WHERE
+
+Time : 21:41:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas, Institucion FROM personas_trabajos_libres WHERE
+
+Time : 21:39:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas FROM personas_trabajos_libres WHERE
+
+Time : 21:39:07
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas FROM personas_trabajos_libres WHERE
+
+Time : 21:38:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ID_Personas FROM personas_trabajos_libres WHERE
+

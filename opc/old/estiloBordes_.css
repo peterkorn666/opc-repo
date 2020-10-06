@@ -1,0 +1,86 @@
+.borde_1_Der{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	background-color:#F7F7F0;
+}
+#divTitFiltro {
+	padding: 4px;
+}
+
+.borde_1_Iz{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	background-color:#F7F7F0;
+}
+.borde_1_Der_abajo{
+	background-color:#F7F7F0;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+}
+.borde_1_Der_arriba{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	background-color:#F7F7F0;
+}
+.borde_1_Iz_abajo{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	background-color:#F7F7F0;
+}
+.borde_1_Iz_Der_arriba{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	background-color:#F7F7F0;
+}
+.solapa_selecionada{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	background-color: #FFFFCC;
+}
+.solapa_NO_selecionada{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #666666;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666666;
+	background-color: #cccccc;
+}
+.solapa_pie{
+
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+
+}

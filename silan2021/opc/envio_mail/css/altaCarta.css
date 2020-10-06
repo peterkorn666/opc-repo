@@ -1,0 +1,46 @@
+body{
+    background-color: #FBF6F0;
+}
+
+.tabla_campos {
+    color: #990000;
+}
+
+.tabla_etiquetas {
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.tabla_etiquetas .fila_separadora {
+    border-top: 1px solid black;
+}
+.tabla_etiquetas .columna_separadora {
+    border-right: 1px solid black;
+}
+.tabla_etiquetas .titulo {
+    color: #333366;
+    font-weight: bold;
+}
+.tabla_etiquetas .nombre_etiqueta {
+    font-weight: bold;
+}
+.etiqueta {
+    cursor: pointer;
+}
+
+.tabla_cartas .row {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.tabla_cartas .titulo {
+    color: #333366;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+.editar_carta {
+    cursor: pointer;
+}
+.eliminar_carta {
+    cursor: pointer;
+}

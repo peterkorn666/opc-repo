@@ -1,0 +1,75 @@
+Time : 17:36:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_comentarios' in 'field list'
+Raw SQL : UPDATE conferencistas SET  
+							profesion=:profesion, 
+							email=:email, 
+							nombre=:nombre, 
+							apellido=:apellido, 
+							genero=:genero, 
+							institucion=:institucion, 
+							cargo=:cargo, 
+							documento=:documento, 
+							telefono=:telefono, 
+							ciudad=:ciudad, 
+							pais=:pais, 
+							comentarios=:comentarios, 
+							redes_sociales=:redes_sociales, 
+							cv_abreviado=:cv_abreviado, 
+							cv_extendido=:cv_extendido, 
+							hotel=:hotel, 
+							hotel_in=:hotel_in, 
+							hotel_out=:hotel_out, 
+							hotel_compania_in=:hotel_compania_in, 
+							hotel_vuelo_in=:hotel_vuelo_in, 
+							hotel_fecha_in=:hotel_fecha_in, 
+							hotel_hora_in=:hotel_hora_in, 
+							hotel_compania_out=:hotel_compania_out, 
+							hotel_vuelo_out=:hotel_vuelo_out, 
+							hotel_fecha_out=:hotel_fecha_out, 
+							hotel_hora_out=:hotel_hora_out, 
+							archivo_presentacion=:archivo_presentacion, 
+							archivo_foto=:archivo_foto, 
+							archivo_cv=:archivo_cv 
+							,admin_comentarios=:admin_comentarios, 
+							admin_comentarios2=:admin_comentarios2, 
+							admin_participa=:admin_participa 
+							 
+							WHERE id_conf=:key
+
+Time : 17:36:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_comentarios' in 'field list'
+Raw SQL : UPDATE conferencistas SET  
+							profesion=:profesion, 
+							email=:email, 
+							nombre=:nombre, 
+							apellido=:apellido, 
+							genero=:genero, 
+							institucion=:institucion, 
+							cargo=:cargo, 
+							documento=:documento, 
+							telefono=:telefono, 
+							ciudad=:ciudad, 
+							pais=:pais, 
+							comentarios=:comentarios, 
+							redes_sociales=:redes_sociales, 
+							cv_abreviado=:cv_abreviado, 
+							cv_extendido=:cv_extendido, 
+							hotel=:hotel, 
+							hotel_in=:hotel_in, 
+							hotel_out=:hotel_out, 
+							hotel_compania_in=:hotel_compania_in, 
+							hotel_vuelo_in=:hotel_vuelo_in, 
+							hotel_fecha_in=:hotel_fecha_in, 
+							hotel_hora_in=:hotel_hora_in, 
+							hotel_compania_out=:hotel_compania_out, 
+							hotel_vuelo_out=:hotel_vuelo_out, 
+							hotel_fecha_out=:hotel_fecha_out, 
+							hotel_hora_out=:hotel_hora_out, 
+							archivo_presentacion=:archivo_presentacion, 
+							archivo_foto=:archivo_foto, 
+							archivo_cv=:archivo_cv 
+							,admin_comentarios=:admin_comentarios, 
+							admin_comentarios2=:admin_comentarios2, 
+							admin_participa=:admin_participa 
+							 
+							WHERE id_conf=:key

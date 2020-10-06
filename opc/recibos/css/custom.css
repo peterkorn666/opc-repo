@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.row {margin:10px 0 10px 0 !important}
+.row .col-md-6{
+	margin-bottom:20px !important;
+}
+p{
+	margin-left:13px;
+}
+.circle-green {
+	border-radius: 50%;
+	width: 11px;
+	height: 11px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, darkgreen 50%, lightgreen 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, darkgreen, lightgreen);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, darkgreen 50%, lightgreen 100%, red 95%);
+}
+
+span.circle-green{
+	display:inline-block;
+	
+}
+
+span.circle-green:hover{
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, darkgreen 50%, lightgreen 100%, red 95%) !important;
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, darkgreen, lightgreen) !important;
+	background-image: radial-gradient(45px 45px 45deg, circle cover, darkgreen 50%, lightgreen 100%, red 95%) !important;
+}
+
+.circle-green:not(.no-hover):hover {	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, lightgreen 50%, darkgreen 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, lightgreen, darkgreen);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, lightgreen 50%, darkgreen 100%, red 95%);
+}
+
+.circle-red {
+	border-radius: 50%;
+	width: 11px;
+	height: 11px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, orange 50%, red 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, orange, red);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, orange 50%, red 100%, red 95%);
+}
+
+span.circle-red{
+	display:inline-block
+}
+
+
+span.circle-red:hover{
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, orange 50%, red 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, orange, red);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, orange 50%, red 100%, red 95%);
+}
+
+.circle-red:hover{
+	border-radius: 50%;
+	width: 11px;
+	height: 11px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, red 50%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, red, orange);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, red 50%, orange 100%, red 95%);
+}
+
+.circle-yellow {
+	border-radius: 50%;
+	width: 11px;
+	height: 11px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #707070 50%, yellow 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #707070, yellow);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, #707070 50%, yellow0 100%, red 95%);
+}
+
+.circle-yellow:hover{
+	border-radius: 50%;
+	width: 11px;
+	height: 11px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 80%, #707070 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, #707070);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 80%, #707070 100%, red 95%);
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.circle-loading{
+	/*width:200px !important;
+	height:200px !important;*/
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, black 50%, white 100%, red 95%) !important;
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, black, white) !important;
+	background-image: radial-gradient(45px 45px 45deg, circle cover, black 50%, white 100%, red 95%) !important;
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
+
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	border:none !important
+}
+
+.small-font{
+	font-size:11px
+}

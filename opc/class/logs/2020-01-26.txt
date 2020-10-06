@@ -1,0 +1,23 @@
+Time : 16:24:11
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM trabajos_libres_conversatorios_tipos WHERE id=:id
+
+Time : 16:09:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM trabajos_libres_conversatorios_tipos WHERE id=:id
+
+Time : 16:06:58
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM trabajos_libres_conversatorios_tipos WHERE id=:id
+
+Time : 15:42:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM trabajos_libres_conversatorios_tipos WHERE id=:id
+
+Time : 02:59:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Institucion_otro LIKE '%Horizontes%' numero_tl LIKE '%Horizontes%'  OR Nombre LI' at line 1
+Raw SQL : SELECT * FROM personas_trabajos_libres as p JOIN trabajos_libres_participantes as tp ON p.ID_Personas=tp.ID_participante JOIN trabajos_libres as t ON tp.ID_trabajos_libres=t.id_trabajo WHERE t.id_crono<>0 AND (Nombre LIKE '%Horizontes%' OR Apellidos LIKE '%Horizontes%' OR Institucion LIKE '%Horizontes%' Institucion_otro LIKE '%Horizontes%' numero_tl LIKE '%Horizontes%'  OR Nombre LIKE '%Poa%' OR Apellidos LIKE '%Poa%' OR Institucion LIKE '%Poa%' Institucion_otro LIKE '%Poa%' numero_tl LIKE '%Poa%' )
+
+Time : 02:40:15
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM trabajos_libres_conversatorios_tipos WHERE id=:id

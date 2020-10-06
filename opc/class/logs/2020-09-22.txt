@@ -1,0 +1,3 @@
+Time : 20:45:37
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id_trabajo FROM trabajos_libres WHERE  (    Hora_inicio like '%♂%'  or Hora_fin like '%♂%'  or numero_tl like '%♂%'  or titulo_tl like '%♂%'  or tipo_tl like '%♂%'  or contacto_mail like '%♂%'  or resumen like '%♂%'  or resumen2 like '%♂%'  or resumen3 like '%♂%'  or palabrasClave like '%♂%' )

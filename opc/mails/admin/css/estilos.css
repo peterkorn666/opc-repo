@@ -1,0 +1,386 @@
+/* CSS Document */
+
+.destacado_pendiente {
+	background-color:#FFFF99;
+}
+
+.destacado_rebotado {
+	background-color:#E49494;
+}
+
+.destacado_enviado {
+	background-color:#99CC99;
+}
+
+/*Fondo según prioridad*/
+.fondo_prioridad_1 {
+	background-color:#99CC99;
+}
+
+.fondo_prioridad_2 {
+	background-color:#FFFF99;
+}
+
+.fondo_prioridad_3 {
+	background-color:#E49494;
+}
+
+/* Filas en la  Grilla Par-Impar*/
+.resultado_fila0 {
+	background-color:#F7F9FB;
+}
+
+tr.resultado_fila0:hover {
+	background-color:#E1E7EE;
+	cursor:pointer;
+}
+
+.resultado_fila1{
+	background-color:#F4F4F4;
+}
+
+tr.resultado_fila1:hover {
+	background-color:#DFDFDF;
+	cursor:pointer;
+}
+
+/* Filas en la  Grilla Par-Impar y Prioridad*/
+/*Normal*/
+.resultado_fila0_1 {
+	background-color:#AAEEAA;
+}
+
+tr.resultado_fila0_1:hover {
+	background-color:#99FF99;
+	cursor:pointer;
+}
+
+.resultado_fila1_1{
+	background-color:#BBFFBB;
+}
+
+tr.resultado_fila1_1:hover {
+	background-color:#AAFFAA;
+	cursor:pointer;
+}
+/*Urgente*/
+.resultado_fila0_2 {
+	background-color:#EEEEAA;
+}
+
+tr.resultado_fila0_2:hover {
+	background-color:#FFFF99;
+	cursor:pointer;
+}
+
+.resultado_fila1_2{
+	background-color:#FFFFBB;
+}
+
+tr.resultado_fila1_2:hover {
+	background-color:#FFFF99;
+	cursor:pointer;
+}
+
+/*Muy Urgente*/
+.resultado_fila0_3 {
+	background-color:#EEAAAA;
+}
+
+tr.resultado_fila0_3:hover {
+	background-color:#FF9999;
+	cursor:pointer;
+}
+
+.resultado_fila1_3{
+	background-color:#EEBBBB;
+}
+
+tr.resultado_fila1_3:hover {
+	background-color:#FFAAAA;
+	cursor:pointer;
+}
+
+
+ 
+#DivArmadoTitulo{
+	float:left; 
+	background-color:#F4F4F4;
+	width:100%;
+	border:0px;
+}
+#DivArmadoContenidos{
+	float:left; 
+	background-color:#FFFFFF;
+	width:100%;
+	border:0px;
+}
+#divMarcoGrisGrueso{
+	border:1px solid #999999; 
+	/*margin-top:2px;*/
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:6px;
+}
+.divMarcoGrisFino{
+	border:1px solid #CCCCCC; 
+}
+.divMarcoGris{
+	background-color:#D6D6D6;
+	border:2px solid #FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	font-weight:bold;
+}
+
+.campos{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	border:1px solid #CCCCCC;
+	font-weight:bold;
+}
+.textos{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+}
+.textosLogin{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+}
+.textosDestacados{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+.textosDestacadosGrande{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.subtitulo{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+.titulo{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#000000;
+	border-bottom:2px solid  #999999;
+	background-color:#EBEBEB;
+	margin-bottom:6px;
+	background-image:url(../img/fondomenu_arriba.png);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+.barrita{
+	/*color:#879205;
+	color:#666666;*/
+	
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+.btn{
+border-bottom:2px solid #999999;
+border-left:1px solid #999999;
+border-top:1px solid #999999;
+border-right:2px solid #999999; 
+padding:2px; 
+/*background-color:#FFCC00 ;*/
+background-color:#E1E7EE;
+width:60px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:bold;
+color:#444444;
+margin:2px;
+float:left;
+}
+
+div.btn:hover{
+border-bottom:1px solid #666666;
+border-left:2px solid #666666;
+border-top:2px solid #666666;
+border-right:1px solid #666666; 
+/*background-color:#DDB000 ;*/
+background-color:#BBCEE1;
+cursor:pointer;
+color:#666666;
+}
+
+.btn a{
+color:#666666;
+}
+
+.btn a:visited{
+color:#666666;
+}
+
+.btn a:hover{
+color:#444444;
+}
+
+
+.cabezal{
+color:#FFFFFF;
+/*background-color:#660099;*/
+background-color:#999999;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+
+.cabezal_asc{
+color:#FFFFFF;
+/*background-color:#FFFFFF;*/
+background-color:#DBDBDB;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+
+.cabezal_desc{
+color:#FFFFFF;
+/*background-color:#660099;*/
+background-color:#DBDBDB;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+.cabezalListadoItems{
+color:#FFFFFF;
+background-color:#660099;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+.marcoGrisGrueso{
+	border:2px solid #CCCCCC; 
+	/*margin-top:2px;*/
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:6px;
+}
+
+
+.comboBox {
+  position:absolute; visibility:hidden; left:0; top:0; z-index:10000;
+  background-color:#E1E7EE; border:1px solid #336; 
+  width:250px; padding:4px;
+  color:#000; font-size:11px; line-height:1.2;
+}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+body {
+	background-image: url(../img/fondo_sitio.jpg);
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #848484;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #848484;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #848484;
+}
+.terminos {font-size: 10px}
+.titulo_ficha {
+	color: #a6a6a6;
+	font-size: 16px;
+	font-weight: bold;
+}
+.nombre_ficha {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#Ficha_Resumen {
+	padding: 5px;
+}
+
+div .textoDestacado {
+ border: 1px solid #70b0cd;
+ padding: 6px;
+ background: #9bd0ef;
+ background-color: #9bd0ef;
+}
+
+.admArchivos_directorio {
+border: 2px solid black;
+}
+
+.admArchivos_directorio  {
+margin: 0px;
+border: 0px;
+font-weight:bold;
+background: url(../img/directorio.gif) no-repeat left;
+padding-left: 20px;
+height: 30px;
+line-height: 30px;
+margin: 0px;
+}
+
+.admArchivos_archivo  {
+margin: 0px;
+border: 0px;
+font-weight:bold;
+background: url(../img/archivo.gif) no-repeat left;
+padding-left: 20px;
+height: 30px;
+line-height: 30px;
+margin: 0px;
+}
+
+.admArchivos_eliminar {
+font-weight:normal;
+background: url(../img/eliminar.gif) no-repeat left;
+height: 25px;
+width: 22px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.admArchivos_renombrar {
+font-weight:normal;
+background: url(../img/renombrar.gif) no-repeat left;
+height: 25px;
+width: 22px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.admArchivos_descargar {
+font-weight:normal;
+background: url(../img/descargar.gif) no-repeat left;
+height: 25px;
+width: 22px;
+padding-left:10px;
+padding-right:10px;
+}

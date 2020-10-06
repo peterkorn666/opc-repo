@@ -1,0 +1,35 @@
+Time : 19:11:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idioma' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail
+		
+		FROM trabajos_libres t JOIN trabajos_libres_participantes tp ON tp.ID_trabajos_libres=t.id_trabajo JOIN personas_trabajos_libres p ON tp.ID_participante=p.ID_Personas JOIN paises pa ON p.Pais=pa.ID_Paises where estado like '%%'  and ( id_trabajo ='45')  and idioma='Español' and pa.ID_Paises='31' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 04:06:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idioma' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.resumen3, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail
+		
+		FROM trabajos_libres t  where estado like '%%'  and idioma='Español' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:03:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idioma' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail
+		
+		FROM trabajos_libres t  where estado like '%%'  and idioma='Español' GROUP BY t.id_trabajo order by t.numero_tl ASC
+
+Time : 02:02:12
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idioma' in 'where clause'
+Raw SQL : SELECT 
+		
+		t.id_trabajo, t.numero_tl, t.estado, t.area_tl, t.id_crono, t.modalidad, t.linea_transversal,
+		t.titulo_tl, t.resumen, t.resumen2, t.Hora_inicio, t.Hora_fin, t.archivo_tl, t.contacto_mail
+		
+		FROM trabajos_libres t  where estado like '%%'  and idioma='English' GROUP BY t.id_trabajo order by t.numero_tl ASC

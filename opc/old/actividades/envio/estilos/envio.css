@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+	font-size:12px;
+}
+
+div.contenedor{
+	width:930px;
+	margin:0 auto;
+}
+
+div.tituloForm{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:26px;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+div.estado_ok{
+	border-bottom: 1px dashed;
+    margin-bottom: 4px;
+    padding: 2px 0 2px 7px;
+}
+div.estado_error{
+	border:1px solid red;
+	padding:2px;
+}

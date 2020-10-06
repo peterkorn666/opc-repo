@@ -1,0 +1,7 @@
+#beta-alert{
+	width:100%;
+	position:fixed;
+	top:0px;
+	border-bottom:6px solid #ED7627;
+	z-index:9999999
+}
