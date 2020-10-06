@@ -1,3 +1,0 @@
-Time : 02:07:46
-SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_cuenta' in 'where clause'
-Raw SQL : SELECT * FROM trabajos_libres WHERE id_cuenta='17'
