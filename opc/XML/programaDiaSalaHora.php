@@ -233,7 +233,7 @@ foreach($infoCrono as $crono):
 		endif;
 
 		//HORA / TIPO ACTIVIDAD
-		$tipo_actividad = $core->getNameTipoActividadID($crono["tipo_actividad"]);
+		/*$tipo_actividad = $core->getNameTipoActividadID($crono["tipo_actividad"]);
 		$se_puede_mostrar = true;
 		foreach($arrayActividadesMostrar1vez as $elem){
 			if(($tipo_actividad["tipo_actividad"] === $tipo_actividad_) && ($tipo_actividad_ === $elem))
@@ -242,9 +242,10 @@ foreach($infoCrono as $crono):
 		echo  html("hora_actividad").substr($crono["start_date"],-8,-3)." - ".substr($crono["end_date"],-8,-3).html("/hora_actividad")."@@@";
 		if($tipo_actividad["tipo_actividad"] && $se_puede_mostrar){
 			echo html("tipo_actividad").limpiar($tipo_actividad["tipo_actividad"]).html("/tipo_actividad").BR."@@@";
-		}
+		}*/
 		//TITULO ACTIVIDAD
 		echo html("titulo_actividad").limpiar($crono["titulo_actividad"]).html("/titulo_actividad").BR;
+		echo html("salto_pagina").html("/salto_pagina");
 		
 		//CONFERENCISTAS
 		$getCronoConf = $core->getCronoConferencistas($crono["id_crono"]);
@@ -280,7 +281,6 @@ foreach($infoCrono as $crono):
 		
 		if(count($getCronoConf)>0)
 		echo html("/conferencistas");
-		
 		//TRABAJOS LIBRES
 		$getCronoTL = $core->getCronoTL($crono["id_crono"]);
 		if(count($getCronoTL)>0)
@@ -310,7 +310,7 @@ foreach($infoCrono as $crono):
 				//$txt .= "&lt;b&gt;Resumen en español:&lt;/b&gt;".BR;
 				$txt .= limpiar($cronoTL["resumen"]);
 					}
-				$txt .= html("/trabajo_resumen");
+				$txt .= html("/trabajo_resumen").BR;
 				//Bibliografia original
 					if($cronoTL["resumen3"]){
 				$txt .=	html("trabajo_bibliografia");
@@ -351,7 +351,7 @@ foreach($infoCrono as $crono):
 				//Resumen traducido
 				$txt .= html("trabajo_resumen");
 				$txt .= limpiar($cronoTL["resumen2"]);
-				$txt .= html("/trabajo_resumen");	
+				$txt .= html("/trabajo_resumen").BR;	
 					}			
 				//Bibliografia traducida
 					if($cronoTL["resumen4"]){
